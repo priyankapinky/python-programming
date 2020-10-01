@@ -1,8 +1,5 @@
-x=raw_input("")
-print(x)
-if (x>'A'):
-    print ("alphabet")
-elif (x>'a'):
-    print ("alphabet")
+ch = input("Enter a character: ")
+if((ch>='a' and ch<= 'z') or (ch>='A' and ch<='Z')):
+    print(ch, "is an Alphabet")
 else:
-    print ("not alphabet")
+    print(ch, "is not an Alphabet")
